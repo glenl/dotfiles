@@ -1,0 +1,23 @@
+[
+  {
+    "position": "bottom",
+    "layer": "bottom",
+    "output": ["HDMI-A-1"],
+
+    "include": "~/.config/waybar/modules.json",
+
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+      "hyprland/window"
+      ],
+
+    "modules-right": [
+      "pulseaudio",
+      "clock",
+      "custom/power",
+    ],
+  },
+]

@@ -1,0 +1,8 @@
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORM=wayland;xcb
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+
+# Fixes nvidia issues
+export LIBVA_DRIVER_NAME=nvidia
+export GBM_BACKEND=nvidia-drm
+export __GLX_VENDOR_LIBRARY_NAME=nvidia

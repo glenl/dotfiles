@@ -1,0 +1,10 @@
+configuration{
+    modi: "run,window,combi";
+    show-icons: true;
+    terminal: "foot";
+    drun-display-format: "{icon} {name}";
+    disable-history: false;
+    sidebar-mode: true;
+}
+
+@theme "catppuccin-mocha"

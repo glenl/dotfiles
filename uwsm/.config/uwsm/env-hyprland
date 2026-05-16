@@ -1,0 +1,5 @@
+# Environment variables for uwsm
+# https://wiki.archlinux.org/title/Universal_Wayland_Session_Manager
+
+export HYPRCURSOR_SIZE=24
+export HYPRCURSOR_THEME=Bibata-Modern-Classic
