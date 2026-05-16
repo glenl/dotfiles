@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+set -euo pipefail
+
+# options
+while getopts vo: flag
+do
+    case $flag in
+        v) verbose=1;;
+        o) filename="$OPTARG";;
+    esac
+done
