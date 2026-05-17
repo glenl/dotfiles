@@ -2,7 +2,7 @@
 
 * {
     font-family: "Fira Code Retina";
-    font-size: 12px;
+    font-size: 16px;
     min-height: 0;
 }
 
@@ -19,7 +19,6 @@ window#waybar {
     padding-left: 8px;
     padding-right: 8px;
 }
-
 
 /* workspaces */
 
@@ -40,7 +39,7 @@ window#waybar {
     color: @blue;
     background-color: @mantle;
     opacity: 0.5;
-    font-size: 13px;
+    font-size: 16px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -64,7 +63,7 @@ window#waybar {
     opacity: 0.5;
 }
 
-#power,
+#custom-wlogout,
 #pulseaudio,
 #clock,
 #wireplumber,
@@ -78,6 +77,18 @@ window#waybar {
   margin-right: 4px;
   padding-left: 4px;
   padding-right: 4px;
+}
+
+#custom-wlogout {
+    background: @surface0;
+    margin: 5px 10px 5px 5px;
+    padding-left: 8px;
+    padding-right: 12px;
+    border-radius: 12px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.8;
+    color: @green;
 }
 
 #clock {
@@ -108,13 +119,4 @@ window#waybar {
 
 #idle_inhibitor.activated {
     color: @red;
-}
-
-menu {
-    border-radius: 15px;
-    background: @surface0;
-    color: @text;
-}
-menuitem {
-    border-radius: 12px;
 }

@@ -30,16 +30,9 @@
     "on-click": "google-chrome-stable https://calendar.google.com/calendar/u/0/r?pli=1"
   },
 
-  "custom/power": {
-    "format" : "⏻ ",
-        "tooltip": false,
-        "menu": "on-click",
-        "menu-file": "~/.config/waybar/power_menu.xml",
-        "menu-actions": {
-            "logout": "uwsm stop",
-            "shutdown": "systemctl poweroff",
-            "reboot": "systemctl reboot",
-            "suspend": "systemctl suspend",
-        },
-    },
+  "custom/wlogout": {
+    "format" : "⏻",
+    "tooltip": false,
+    "on-click": "wlogout --protocol layer-shell"
+  },
 }

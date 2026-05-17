@@ -3,7 +3,7 @@
 
 # Inserts a blank line between shell prompts
 add_newline = false
-scan_timeout = 40
+scan_timeout = 100
 
 [directory]
 truncation_length = 7
