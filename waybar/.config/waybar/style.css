@@ -23,7 +23,7 @@ window#waybar {
 /* workspaces */
 
 #workspaces {
-    background: @rosewater;
+    background: @subtext0;
     margin: 5px 5px 5px 5px;
     padding: 4px 1px;
     border-radius: 12px;
@@ -44,7 +44,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: @green;
+    color: @sapphire;
     background-color: @surface0;
     border-radius: 10px;
     background-size: 400% 400%;
@@ -88,7 +88,7 @@ window#waybar {
     font-weight: normal;
     font-style: normal;
     opacity: 0.8;
-    color: @green;
+    color: @sapphire;
 }
 
 #clock {
@@ -98,10 +98,9 @@ window#waybar {
     font-weight: normal;
     font-style: normal;
     opacity: 0.8;
-    color: @lavender;
+    color: @sapphire;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/Module:-PulseAudio */
 #pulseaudio {
     background: @surface0;
     margin: 5px 5px;
@@ -109,7 +108,7 @@ window#waybar {
     font-weight: normal;
     font-style: normal;
     opacity: 0.8;
-    color: @lavender;
+    color: @sapphire;
 }
 
 #idle_inhibitor {
